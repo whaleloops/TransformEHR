@@ -6,7 +6,7 @@ This repository provides the code for fine-tuning TransformEHR, a generative enc
 ## Dependencies
 
 * Operating systems: Ubuntu 20.04.5 LTS
-* Python 3.8 with libraries:
+* Python 3.8.11 with libraries:
 * [NumPy](http://www.numpy.org/) (currently tested on version 1.20.3)
 * [PyTorch](http://pytorch.org/) (currently tested on version 1.9.0+cu111)
 * [Transformers](https://github.com/huggingface/transformers) (currently tested on version 4.16.2)
@@ -16,6 +16,10 @@ This repository provides the code for fine-tuning TransformEHR, a generative enc
 ## Installation
  
 Use pip to install, typical install time is about 30 minutes.
+
+## How to load sample data
+
+An example to load sample data is located at sample_load.py
 
 ## How to fine-tune
 

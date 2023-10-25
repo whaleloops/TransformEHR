@@ -1,8 +1,6 @@
 import collections
 import logging
 import os
-import unicodedata
-from typing import List, Optional
 
 from transformers import BertTokenizer
 
